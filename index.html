@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Dhitik - Creative Developer Portfolio">
+
+    <meta name="theme-color"
+          content="#070711">
+
+    <title>Dhitik | Developer</title>
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- EMAILJS -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+<!-- =====================================================
+     LOADER
+===================================================== -->
+
+<div id="loader">
+
+    <div class="loader-ring"></div>
+
+    <div class="loader-logo">
+        DHITIK<span>.</span>
+    </div>
+
+    <div class="loader-text">
+        INITIALIZING SYSTEM...
+    </div>
+
+    <div class="loader-progress">
+        <span></span>
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     PARTICLES
+===================================================== -->
+
+<canvas id="particles"></canvas>
+
+
+<!-- =====================================================
+     CURSOR
+===================================================== -->
+
+<div class="cursor-dot"></div>
+
+<div class="cursor-ring"></div>
+
+<div class="cursor-glow"></div>
+
+
+<!-- =====================================================
+     BACKGROUND
+===================================================== -->
+
+<div class="background-orb orb-a"></div>
+<div class="background-orb orb-b"></div>
+<div class="background-orb orb-c"></div>
+
+
+<!-- =====================================================
+     SCROLL PROGRESS
+===================================================== -->
+
+<div class="scroll-progress">
+    <span id="scrollProgress"></span>
+</div>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header class="navbar">
+
+    <a href="#home"
+       class="logo">
+
+        D<span>.</span>
+
+    </a>
+
+
+    <nav id="navMenu">
+
+        <a href="#home"
+           class="nav-link active">
+            Home
+        </a>
+
+        <a href="#about"
+           class="nav-link">
+            About
+        </a>
+
+        <a href="#skills"
+           class="nav-link">
+            Skills
+        </a>
+
+        <a href="#projects"
+           class="nav-link">
+            Projects
+        </a>
+
+        <a href="#journey"
+           class="nav-link">
+            Journey
+        </a>
+
+        <a href="#contact"
+           class="nav-link">
+            Contact
+        </a>
+
+    </nav>
+
+
+    <div class="nav-actions">
+
+        <button id="soundButton"
+                class="icon-button"
+                title="Sound">
+
+            <i class="fa-solid fa-volume-high"></i>
+
+        </button>
+
+
+        <button id="themeButton"
+                class="icon-button"
+                title="Change colors">
+
+            <i class="fa-solid fa-palette"></i>
+
+        </button>
+
+
+        <button id="modeButton"
+                class="icon-button"
+                title="Dark / Light">
+
+            <i class="fa-solid fa-sun"></i>
+
+        </button>
+
+
+        <button id="commandButton"
+                class="icon-button command-button"
+                title="Command palette">
+
+            <i class="fa-solid fa-terminal"></i>
+
+        </button>
+
+
+        <button id="menuButton"
+                class="menu-button">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section id="home"
+         class="hero section">
+
+    <div class="hero-content">
+
+        <div class="status">
+
+            <span class="status-dot"></span>
+
+            AVAILABLE FOR AWESOME PROJECTS
+
+        </div>
+
+
+        <div class="hero-small">
+            HELLO, I'M
+        </div>
+
+
+        <h1>
+
+            Dhitik
+            <span class="gradient-text">.</span>
+
+        </h1>
+
+
+        <h2>
+
+            I build
+
+            <span id="typing"></span>
+
+            <span class="typing-cursor">|</span>
+
+        </h2>
+
+
+        <p class="hero-description">
+
+            A curious student and developer who loves turning
+            ideas into interactive websites, games and
+            technology experiments that feel alive.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#projects"
+               class="btn primary magnetic">
+
+                <i class="fa-solid fa-rocket"></i>
+
+                Explore My Work
+
+            </a>
+
+
+            <a href="#contact"
+               class="btn secondary magnetic">
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+                Let's Talk
+
+            </a>
+
+        </div>
+
+
+        <div class="socials">
+
+            <a href="#"
+               aria-label="GitHub">
+
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+
+
+            <a href="#"
+               aria-label="LinkedIn">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+            </a>
+
+
+            <a href="mailto:dhitik101@gmail.com"
+               aria-label="Email">
+
+                <i class="fa-solid fa-envelope"></i>
+
+            </a>
+
+
+            <button id="copyEmail"
+                    class="copy-email">
+
+                <i class="fa-regular fa-copy"></i>
+
+                Copy Email
+
+            </button>
+
+        </div>
+
+
+        <!-- LIVE INFO -->
+
+        <div class="live-info">
+
+            <div>
+
+                <span class="live-dot"></span>
+
+                <span id="localTime">
+                    Local time
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <i class="fa-solid fa-code"></i>
+
+                Building something cool...
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         HERO TERMINAL
+    ================================================= -->
+
+    <div class="hero-visual">
+
+        <div class="floating-badge badge-one">
+            <i class="fa-brands fa-python"></i>
+            Python
+        </div>
+
+        <div class="floating-badge badge-two">
+            <i class="fa-brands fa-js"></i>
+            JavaScript
+        </div>
+
+
+        <div class="code-card tilt">
+
+            <div class="terminal-header">
+
+                <div class="window-buttons">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <span>
+                    dhitik@portfolio:~
+                </span>
+
+            </div>
+
+
+            <div class="terminal-body">
+
+                <div>
+                    <span class="terminal-green">
+                        dhitik
+                    </span>
+
+                    <span>
+                        @developer
+                    </span>
+
+                    <span class="terminal-muted">
+                        :~$
+                    </span>
+
+                    whoami
+                </div>
+
+
+                <div class="terminal-output">
+                    Creative Developer
+                </div>
+
+
+                <div>
+                    <span class="terminal-green">
+                        dhitik
+                    </span>
+
+                    <span>
+                        @developer
+                    </span>
+
+                    <span class="terminal-muted">
+                        :~$
+                    </span>
+
+                    skills
+                </div>
+
+
+                <div class="terminal-output">
+                    Python • HTML • CSS • JavaScript
+                </div>
+
+
+                <div>
+                    <span class="terminal-green">
+                        dhitik
+                    </span>
+
+                    <span>
+                        @developer
+                    </span>
+
+                    <span class="terminal-muted">
+                        :~$
+                    </span>
+
+                    status
+                </div>
+
+
+                <div class="terminal-output success">
+                    ● ONLINE — READY TO BUILD
+                </div>
+
+
+                <div class="terminal-command">
+                    <span>$</span>
+                    <span id="terminalTyping"></span>
+                    <span class="terminal-cursor">█</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="scroll-indicator">
+
+        <span>SCROLL</span>
+
+        <div></div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section id="about"
+         class="section">
+
+    <div class="section-title reveal">
+
+        <span>01</span>
+
+        <h2>
+            About <span>Me</span>
+        </h2>
+
+        <p>
+            The person behind the pixels.
+        </p>
+
+    </div>
+
+
+    <div class="about-grid">
+
+        <div class="about-text reveal">
+
+            <div class="mini-label">
+                WHO AM I?
+            </div>
+
+            <h3>
+
+                Curious mind.
+                <span>Creative builder.</span>
+
+            </h3>
+
+
+            <p>
+
+                I'm Dhitik, a student and developer who enjoys
+                experimenting with technology and turning ideas
+                into interactive projects.
+
+            </p>
+
+
+            <p>
+
+                I learn best by building — from Python and
+                Pygame to HTML, CSS, JavaScript and Bootstrap.
+
+            </p>
+
+
+            <p>
+
+                My favourite projects combine code, creativity,
+                interaction and a little bit of chaos.
+
+            </p>
+
+
+            <a href="#contact"
+               class="text-link">
+
+                Let's build something
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+
+        <div class="stats-grid reveal">
+
+            <div class="stat-card tilt">
+
+                <i class="fa-solid fa-code"></i>
+
+                <strong data-count="15">
+                    0
+                </strong>
+
+                <span>
+                    Projects
+                </span>
+
+            </div>
+
+
+            <div class="stat-card tilt">
+
+                <i class="fa-solid fa-layer-group"></i>
+
+                <strong data-count="6">
+                    0
+                </strong>
+
+                <span>
+                    Technologies
+                </span>
+
+            </div>
+
+
+            <div class="stat-card tilt">
+
+                <i class="fa-solid fa-lightbulb"></i>
+
+                <strong data-count="100">
+                    0
+                </strong>
+
+                <span>
+                    Ideas
+                </span>
+
+            </div>
+
+
+            <div class="stat-card tilt">
+
+                <i class="fa-solid fa-bug"></i>
+
+                <strong data-count="999">
+                    0
+                </strong>
+
+                <span>
+                    Bugs Defeated
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section id="skills"
+         class="section skills-section">
+
+    <div class="section-title reveal">
+
+        <span>02</span>
+
+        <h2>
+            My <span>Skills</span>
+        </h2>
+
+        <p>
+            Tools I use to turn ideas into reality.
+        </p>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+
+        <div class="skill-card reveal tilt">
+
+            <div class="skill-top">
+
+                <div class="skill-icon python">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+
+                <span>85%</span>
+
+            </div>
+
+            <h3>Python</h3>
+
+            <p>
+                Games, experiments and programming.
+            </p>
+
+            <div class="skill-bar">
+                <span style="--width:85%"></span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card reveal tilt">
+
+            <div class="skill-top">
+
+                <div class="skill-icon html">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+
+                <span>92%</span>
+
+            </div>
+
+            <h3>HTML</h3>
+
+            <p>
+                Structured and semantic websites.
+            </p>
+
+            <div class="skill-bar">
+                <span style="--width:92%"></span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card reveal tilt">
+
+            <div class="skill-top">
+
+                <div class="skill-icon css">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+
+                <span>90%</span>
+
+            </div>
+
+            <h3>CSS</h3>
+
+            <p>
+                Animations, layouts and visual effects.
+            </p>
+
+            <div class="skill-bar">
+                <span style="--width:90%"></span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card reveal tilt">
+
+            <div class="skill-top">
+
+                <div class="skill-icon javascript">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+
+                <span>82%</span>
+
+            </div>
+
+            <h3>JavaScript</h3>
+
+            <p>
+                Interactive web experiences.
+            </p>
+
+            <div class="skill-bar">
+                <span style="--width:82%"></span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card reveal tilt">
+
+            <div class="skill-top">
+
+                <div class="skill-icon bootstrap">
+                    <i class="fa-brands fa-bootstrap"></i>
+                </div>
+
+                <span>88%</span>
+
+            </div>
+
+            <h3>Bootstrap</h3>
+
+            <p>
+                Responsive interfaces.
+            </p>
+
+            <div class="skill-bar">
+                <span style="--width:88%"></span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card reveal tilt">
+
+            <div class="skill-top">
+
+                <div class="skill-icon pygame">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+
+                <span>78%</span>
+
+            </div>
+
+            <h3>Pygame</h3>
+
+            <p>
+                2D games and interactive experiments.
+            </p>
+
+            <div class="skill-bar">
+                <span style="--width:78%"></span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+<section id="projects"
+         class="section">
+
+    <div class="section-title reveal">
+
+        <span>03</span>
+
+        <h2>
+            Featured <span>Projects</span>
+        </h2>
+
+        <p>
+            Things I've built while learning and experimenting.
+        </p>
+
+    </div>
+
+
+    <div class="project-controls reveal">
+
+        <div class="filters">
+
+            <button class="filter active"
+                    data-filter="all">
+                All
+            </button>
+
+            <button class="filter"
+                    data-filter="web">
+                Web
+            </button>
+
+            <button class="filter"
+                    data-filter="python">
+                Python
+            </button>
+
+            <button class="filter"
+                    data-filter="game">
+                Games
+            </button>
+
+        </div>
+
+
+        <div class="project-search">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input id="projectSearch"
+                   type="text"
+                   placeholder="Search projects...">
+
+        </div>
+
+    </div>
+
+
+    <div class="projects-grid">
+
+
+        <article class="project-card tilt reveal"
+                 data-category="game"
+                 data-title="Space Invaders"
+                 data-description="A Python and Pygame arcade game featuring aliens, lasers, score tracking, lives and a mystery ship.">
+
+            <div class="project-image space">
+
+                <i class="fa-solid fa-rocket"></i>
+
+                <span>01</span>
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-type">
+                    GAME
+                </span>
+
+                <h3>
+                    Space Invaders
+                </h3>
+
+                <p>
+                    A classic arcade game built using
+                    Python and Pygame.
+                </p>
+
+                <button class="view-project">
+                    View Project
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <article class="project-card tilt reveal"
+                 data-category="web"
+                 data-title="Creative Portfolio"
+                 data-description="A futuristic responsive portfolio with animations, interactive UI, particles, themes and advanced JavaScript effects.">
+
+            <div class="project-image web">
+
+                <i class="fa-solid fa-globe"></i>
+
+                <span>02</span>
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-type">
+                    WEB
+                </span>
+
+                <h3>
+                    Creative Portfolio
+                </h3>
+
+                <p>
+                    An animated website designed to stand out.
+                </p>
+
+                <button class="view-project">
+                    View Project
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <article class="project-card tilt reveal"
+                 data-category="python"
+                 data-title="Dream Catcher"
+                 data-description="An interactive gesture-based computer vision experiment built with Python and webcam input.">
+
+            <div class="project-image ai">
+
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                <span>03</span>
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-type">
+                    PYTHON
+                </span>
+
+                <h3>
+                    Dream Catcher
+                </h3>
+
+                <p>
+                    An interactive gesture-based experiment.
+                </p>
+
+                <button class="view-project">
+                    View Project
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <article class="project-card tilt reveal"
+                 data-category="web"
+                 data-title="Teacher's Day"
+                 data-description="A creative newspaper-inspired website created using HTML, CSS and Bootstrap.">
+
+            <div class="project-image newspaper">
+
+                <i class="fa-solid fa-newspaper"></i>
+
+                <span>04</span>
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-type">
+                    WEB
+                </span>
+
+                <h3>
+                    Teacher's Day
+                </h3>
+
+                <p>
+                    A newspaper-inspired interactive website.
+                </p>
+
+                <button class="view-project">
+                    View Project
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div id="noProjects"
+         class="no-projects">
+
+        No projects found.
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     JOURNEY
+===================================================== -->
+
+<section id="journey"
+         class="section journey">
+
+    <div class="section-title reveal">
+
+        <span>04</span>
+
+        <h2>
+            My <span>Journey</span>
+        </h2>
+
+        <p>
+            Learning by building.
+        </p>
+
+    </div>
+
+
+    <div class="timeline">
+
+
+        <div class="timeline-item reveal">
+
+            <div class="timeline-dot">
+                01
+            </div>
+
+            <div class="timeline-card">
+
+                <span>
+                    START
+                </span>
+
+                <h3>
+                    Started Coding
+                </h3>
+
+                <p>
+                    Began exploring programming and learning
+                    how code can turn ideas into real things.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item reveal">
+
+            <div class="timeline-dot">
+                02
+            </div>
+
+            <div class="timeline-card">
+
+                <span>
+                    BUILD
+                </span>
+
+                <h3>
+                    Python & Games
+                </h3>
+
+                <p>
+                    Started building Python projects and
+                    interactive games using Pygame.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item reveal">
+
+            <div class="timeline-dot">
+                03
+            </div>
+
+            <div class="timeline-card">
+
+                <span>
+                    WEB
+                </span>
+
+                <h3>
+                    Web Development
+                </h3>
+
+                <p>
+                    Expanded into HTML, CSS, JavaScript and
+                    Bootstrap to create interactive websites.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item reveal">
+
+            <div class="timeline-dot">
+                04
+            </div>
+
+            <div class="timeline-card">
+
+                <span>
+                    NEXT
+                </span>
+
+                <h3>
+                    What's Next?
+                </h3>
+
+                <p>
+                    More projects, more experiments and
+                    a lot more things to build.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact"
+         class="section contact">
+
+    <div class="section-title reveal">
+
+        <span>05</span>
+
+        <h2>
+            Let's <span>Connect</span>
+        </h2>
+
+        <p>
+            Have an idea? Send me a message.
+        </p>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+
+        <div class="contact-info reveal">
+
+            <div class="mini-label">
+                GET IN TOUCH
+            </div>
+
+            <h3>
+                Let's create
+                something
+                <span>awesome.</span>
+            </h3>
+
+            <p>
+                Have a project idea, collaboration,
+                question or just want to say hello?
+            </p>
+
+
+            <a href="mailto:dhitik101@gmail.com"
+               class="email-card">
+
+                <div class="email-icon">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </div>
+
+                <div>
+
+                    <small>
+                        EMAIL
+                    </small>
+
+                    <strong>
+                        dhitik101@gmail.com
+                    </strong>
+
+                </div>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </a>
+
+
+            <div class="contact-decoration">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+
+        <!-- CONTACT FORM -->
+
+        <form id="contactForm"
+              class="contact-form reveal">
+
+
+            <div class="form-row">
+
+                <div class="input-group">
+
+                    <label>
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        name="from_name"
+                        id="name"
+                        placeholder="Your name"
+                        required>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label>
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        name="reply_to"
+                        id="email"
+                        placeholder="you@example.com"
+                        required>
+
+                </div>
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>
+                    Subject
+                </label>
+
+                <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="What's this about?"
+                    required>
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>
+                    Message
+                </label>
+
+                <textarea
+                    name="message"
+                    id="message"
+                    rows="7"
+                    maxlength="1500"
+                    placeholder="Write your message..."
+                    required></textarea>
+
+                <div class="character-count">
+                    <span id="charCount">0</span>/1500
+                </div>
+
+            </div>
+
+
+            <!-- HONEYPOT -->
+
+            <input
+                type="text"
+                name="website"
+                class="honeypot"
+                tabindex="-1"
+                autocomplete="off">
+
+
+            <button
+                type="submit"
+                class="btn primary send-button magnetic">
+
+                <span class="send-normal">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                    Send Message
+
+                </span>
+
+
+                <span class="send-loading">
+
+                    <i class="fa-solid fa-spinner fa-spin"></i>
+
+                    Sending...
+
+                </span>
+
+            </button>
+
+
+            <div id="formStatus"></div>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-logo">
+        D<span>.</span>
+    </div>
+
+
+    <p>
+        Designed & built by Dhitik
+    </p>
+
+
+    <div class="footer-links">
+
+        <a href="#home">
+            Home
+        </a>
+
+        <a href="#projects">
+            Projects
+        </a>
+
+        <a href="#contact">
+            Contact
+        </a>
+
+    </div>
+
+
+    <small>
+        © <span id="year"></span> Dhitik.
+        Built with code & curiosity.
+    </small>
+
+</footer>
+
+
+<!-- =====================================================
+     PROJECT MODAL
+===================================================== -->
+
+<div id="projectModal"
+     class="modal">
+
+    <div class="modal-box">
+
+        <button id="closeModal"
+                class="close-modal">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <div class="modal-icon">
+
+            <i class="fa-solid fa-code"></i>
+
+        </div>
+
+
+        <span id="modalType">
+            PROJECT
+        </span>
+
+
+        <h2 id="modalTitle">
+            Project
+        </h2>
+
+
+        <p id="modalDescription">
+            Description
+        </p>
+
+
+        <a href="#contact"
+           class="btn primary"
+           id="modalContact">
+
+            <i class="fa-solid fa-paper-plane"></i>
+
+            Ask Me About It
+
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     COMMAND PALETTE
+===================================================== -->
+
+<div id="commandPalette"
+     class="command-palette">
+
+    <div class="command-box">
+
+        <div class="command-search">
+
+            <i class="fa-solid fa-terminal"></i>
+
+            <input
+                id="commandInput"
+                placeholder="Type a command...">
+
+            <kbd>ESC</kbd>
+
+        </div>
+
+
+        <div class="command-list">
+
+            <button data-command="home">
+                <i class="fa-solid fa-house"></i>
+                Go Home
+                <kbd>H</kbd>
+            </button>
+
+
+            <button data-command="projects">
+                <i class="fa-solid fa-code"></i>
+                View Projects
+                <kbd>P</kbd>
+            </button>
+
+
+            <button data-command="contact">
+                <i class="fa-solid fa-envelope"></i>
+                Contact Me
+                <kbd>C</kbd>
+            </button>
+
+
+            <button data-command="theme">
+                <i class="fa-solid fa-palette"></i>
+                Change Theme
+                <kbd>T</kbd>
+            </button>
+
+
+            <button data-command="sound">
+                <i class="fa-solid fa-volume-high"></i>
+                Toggle Sound
+                <kbd>S</kbd>
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     SCROLL TOP
+===================================================== -->
+
+<button id="scrollTop"
+        class="scroll-top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+<!-- =====================================================
+     TOAST
+===================================================== -->
+
+<div id="toast"></div>
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
